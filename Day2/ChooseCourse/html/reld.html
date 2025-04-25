@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html";>
+<meta name="keywords" content=" - HTML Report">
+<meta name="author" content="Datanamic - www.datanamic.com">
+<title>Choose Course</title>
+<link rel="stylesheet" type="text/css" media="screen,print" href="dbautodoc.css" title="report">
+</head>
+<body bgcolor="#FFFFFF" leftmargin="20" topmargin="10" marginwidth="20" marginheight="10">
+<div class="top">
+Choose Course
+<BR>This report has been generated with the trial version of DeZign for Databases
+</div>
+<ul id="menu">
+<li><a href="index.html">Project details</a></li>
+<li><a href="erdiagram.html">Diagrams</a></li>
+<li><a href="entl.html">Entities</a></li>
+<li><a href="attrl.html">Attributes</a></li>
+<li><a href="rell.html">Relationships</a></li>
+<li><a href="doml.html">Domains</a></li>
+<li><a href="viewl.html">Views</a></li>
+<li><a href="procl.html">Procedures</a></li>
+<li><a href="seql.html">Sequences</a></li>
+<li><a href="userdefinedpropertiesl.html">User defined properties</a></li>
+</ul>
+<div class="row">
+<div class="tab"><a href="rell.html">List of relationships</a></div>
+<div class="activetab">Relationship details</div>
+</div>
+<table width=90% border=0 cellSpacing=0 cellPadding=0 class="chapter">
+<tr>
+<td class="right" valign=top>
+<A NAME="Classroom_Course"></A>
+<div class="objectname">Relationship: Classroom_Course</div>
+<table width="100%" border=0 class="detailstable">
+<tr><td valign="top" width= "200" class="fieldname">Name</td><td valign="top" class="fielddata">Classroom_Course</td></tr>
+<tr><td valign="top" width= "200" class="fieldname">Comment</td><td valign="top" class="fielddata"></td></tr>
+<tr><td valign="top" width= "200" class="fieldname">Relationship type</td><td valign="top" class="fielddata">Non Identifying</td></tr>
+<tr><td valign="top" width= "200" class="fieldname">Cardinality</td><td valign="top" class="fielddata">Zero Or More</td></tr>
+<tr><td valign="top" width= "200" class="fieldname">Parent with columns</td><td valign="top" class="fielddata">Classroom (room_id)</td></tr>
+<tr><td valign="top" width= "200" class="fieldname">Child with columns</td><td valign="top" class="fielddata">Course (room_id)</td></tr>
+<tr><td valign="top" width= "200" class="fieldname">Update rule</td><td valign="top" class="fielddata">None</td></tr>
+<tr><td valign="top" width= "200" class="fieldname">Delete rule</td><td valign="top" class="fielddata">None</td></tr>
+</table>
+<BR>
+<BR>
+<A NAME="Course_ChooseCourse"></A>
+<div class="objectname">Relationship: Course_ChooseCourse</div>
+<table width="100%" border=0 class="detailstable">
+<tr><td valign="top" width= "200" class="fieldname">Name</td><td valign="top" class="fielddata">Course_ChooseCourse</td></tr>
+<tr><td valign="top" width= "200" class="fieldname">Comment</td><td valign="top" class="fielddata"></td></tr>
+<tr><td valign="top" width= "200" class="fieldname">Relationship type</td><td valign="top" class="fielddata">Non Identifying</td></tr>
+<tr><td valign="top" width= "200" class="fieldname">Cardinality</td><td valign="top" class="fielddata">Zero Or More</td></tr>
+<tr><td valign="top" width= "200" class="fieldname">Parent with columns</td><td valign="top" class="fielddata">Course (course_id)</td></tr>
+<tr><td valign="top" width= "200" class="fieldname">Child with columns</td><td valign="top" class="fielddata">ChooseCourse (course_id)</td></tr>
+<tr><td valign="top" width= "200" class="fieldname">Update rule</td><td valign="top" class="fielddata">None</td></tr>
+<tr><td valign="top" width= "200" class="fieldname">Delete rule</td><td valign="top" class="fielddata">None</td></tr>
+</table>
+<BR>
+<BR>
+<A NAME="Professor_Course"></A>
+<div class="objectname">Relationship: Professor_Course</div>
+<table width="100%" border=0 class="detailstable">
+<tr><td valign="top" width= "200" class="fieldname">Name</td><td valign="top" class="fielddata">Professor_Course</td></tr>
+<tr><td valign="top" width= "200" class="fieldname">Comment</td><td valign="top" class="fielddata"></td></tr>
+<tr><td valign="top" width= "200" class="fieldname">Relationship type</td><td valign="top" class="fielddata">Non Identifying</td></tr>
+<tr><td valign="top" width= "200" class="fieldname">Cardinality</td><td valign="top" class="fielddata">Zero Or More</td></tr>
+<tr><td valign="top" width= "200" class="fieldname">Parent with columns</td><td valign="top" class="fielddata">Professor (professor_id)</td></tr>
+<tr><td valign="top" width= "200" class="fieldname">Child with columns</td><td valign="top" class="fielddata">Course (professor_id)</td></tr>
+<tr><td valign="top" width= "200" class="fieldname">Update rule</td><td valign="top" class="fielddata">None</td></tr>
+<tr><td valign="top" width= "200" class="fieldname">Delete rule</td><td valign="top" class="fielddata">None</td></tr>
+</table>
+<BR>
+<BR>
+<A NAME="Student_ChooseCourse"></A>
+<div class="objectname">Relationship: Student_ChooseCourse</div>
+<table width="100%" border=0 class="detailstable">
+<tr><td valign="top" width= "200" class="fieldname">Name</td><td valign="top" class="fielddata">Student_ChooseCourse</td></tr>
+<tr><td valign="top" width= "200" class="fieldname">Comment</td><td valign="top" class="fielddata"></td></tr>
+<tr><td valign="top" width= "200" class="fieldname">Relationship type</td><td valign="top" class="fielddata">Non Identifying</td></tr>
+<tr><td valign="top" width= "200" class="fieldname">Cardinality</td><td valign="top" class="fielddata">Zero Or More</td></tr>
+<tr><td valign="top" width= "200" class="fieldname">Parent with columns</td><td valign="top" class="fielddata">Student (student_id)</td></tr>
+<tr><td valign="top" width= "200" class="fieldname">Child with columns</td><td valign="top" class="fielddata">ChooseCourse (student_id)</td></tr>
+<tr><td valign="top" width= "200" class="fieldname">Update rule</td><td valign="top" class="fielddata">None</td></tr>
+<tr><td valign="top" width= "200" class="fieldname">Delete rule</td><td valign="top" class="fielddata">None</td></tr>
+</table>
+<BR>
+<BR>
+<A NAME="Subject_Course"></A>
+<div class="objectname">Relationship: Subject_Course</div>
+<table width="100%" border=0 class="detailstable">
+<tr><td valign="top" width= "200" class="fieldname">Name</td><td valign="top" class="fielddata">Subject_Course</td></tr>
+<tr><td valign="top" width= "200" class="fieldname">Comment</td><td valign="top" class="fielddata"></td></tr>
+<tr><td valign="top" width= "200" class="fieldname">Relationship type</td><td valign="top" class="fielddata">Non Identifying</td></tr>
+<tr><td valign="top" width= "200" class="fieldname">Cardinality</td><td valign="top" class="fielddata">Zero Or More</td></tr>
+<tr><td valign="top" width= "200" class="fieldname">Parent with columns</td><td valign="top" class="fielddata">Subject (subject_id)</td></tr>
+<tr><td valign="top" width= "200" class="fieldname">Child with columns</td><td valign="top" class="fielddata">Course (subject_id)</td></tr>
+<tr><td valign="top" width= "200" class="fieldname">Update rule</td><td valign="top" class="fielddata">None</td></tr>
+<tr><td valign="top" width= "200" class="fieldname">Delete rule</td><td valign="top" class="fielddata">None</td></tr>
+</table>
+<BR>
+<BR>
+</td>
+</tr>
+</table>
+</body>
+</html>
